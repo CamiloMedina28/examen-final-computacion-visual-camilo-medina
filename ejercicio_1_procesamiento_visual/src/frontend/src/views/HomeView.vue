@@ -10,9 +10,7 @@ import api from "../services/api";
 const loading = ref(false);
 const results = ref(null);
 
-const imagenes_ejemplo = ["penia.png", "munera.png", "salmona.png"];
-
-
+const imagenes_ejemplo = ["penia.png", "munera.png", "salmona.png", "potter.png"];
 
 const processImage = async (file) => {
   loading.value = true;
@@ -100,7 +98,7 @@ const useRandomImage = async () => {
     </button>
   </div>
 
-  <Loading Spinnerv-if="loading"/>
+  <LoadingSpinner v-if="loading"/>
   
   <div v-if="results" class="mt-8 max-w-6xl w-full">
   <ImageComparison :results="results" :key="Date.now()" />
