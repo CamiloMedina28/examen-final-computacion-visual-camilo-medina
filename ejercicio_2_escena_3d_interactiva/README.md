@@ -89,6 +89,7 @@ Por defecto la aplicación estará disponible en:
 Una vez ejecutada la aplicación se visualizará la escena industrial completa.
 La escena puede ser inspeccionada libremente mediante OrbitControls, para la rotación presionar el clic izquierda y mover el mouse, para el zoom hacer uso de la rueda del mouse, para el desplazamiento de la camara hacer uso del clic derecho y arrastrar.
 
+![Interacción básica](./media/basic_interaction.GIF)
 ![Interacción básica](./media/basic_interaction.mp4)
 
 #### Interacción personalizada
@@ -96,6 +97,8 @@ La escena puede ser inspeccionada libremente mediante OrbitControls, para la rot
 Por otro lado, se le permite al usuario tener una interacción directa con la animación de forma que pueda cambiar la velocidad de esta 
 
 ![Interacción cambio de velocidad](./media/user_interaction.mp4)
+![Interacción cambio de velocidad](./media/user_interaction.GIF)
+
 
 #### Flujo de la simulación 
 La simulación funciona automáticamente siguiendo las siguientes etapas:

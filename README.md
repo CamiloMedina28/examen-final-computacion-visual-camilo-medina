@@ -9,6 +9,8 @@
 ### Informes técnicos
 
 - Readme ejercicio 1: [Readme primer ejercicio](./ejercicio_1_procesamiento_visual/README.md)
+- Readme ejercicio 2: [Readme segundo ejercicio](./ejercicio_2_escena_3d_interactiva/README.md)
+
 
 ### Objetivo y descripción general 
 
